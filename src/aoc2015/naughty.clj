@@ -55,7 +55,6 @@
   (good-2? "qjhvhtzxzqqjkmpb")
   (with-open [r (-> "naughty.txt" io/resource io/reader)]
     (count (filter good-2? (line-seq r))))
-  (contains-3-vowels? "aesdfgsdfsfi")
   (contains-same-letter-twice-in-a-row? "abcc")
   (does-contains-special-str? "ugknbfddgicrmopn"))
 
